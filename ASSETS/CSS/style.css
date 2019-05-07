@@ -1,14 +1,32 @@
-.caixa-cabeça{
+header{
     background-color: 	#F0F8FF;
 
 }
-.caixa-menu{
+nav{
+	display: flex;
+	justify-content: center;
+	width: 80vw;
 
 }
 
-a{
+.caixa-cabeça{
+	display: flex;
+    flex-direction: row;
+    height: 83px;
+    width: 100%;
+
+}
+
+a {
 	text-decoration: none;
-	color: red;
+	color: #BC503B;
+	height: 100px;
+
+}
+
+ul {
+	list-style: none;
+    display: flex;
 
 }
 
@@ -19,14 +37,35 @@ a{
 
 .lista {
 	display: inline;
-	padding: 25px;
+	padding: 30px;
+	font-size: 25px;
 
 }
 
-h1 {
+.um-sec {
+	background-image: url("./ASSETS/IMG/fumaça.png");
+	background-size: 80vw 80vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 	color: grey;
-	height: 235px;
-	width: 305px;
+	height: 628px;
+	width: 100%;
+	margin: 50px;
+} 
+
+.img-pulando {
+	height: 620px;
+	width: 50%;
+}
+
+.p {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-around;
+	align-items: center;
+	height: 530px;
+	width: 100%;
 }
 
 p {
@@ -34,27 +73,46 @@ p {
 	height: 140px;
 	width: 290px;
 }
-.caixa-corpo{
 
+.caixa-corpo{
+	display: flex;
+	flex-direction: row;
 
 }
 
 .imagem1{
+	justify-content: space-around;
 	width: 201px;
 	height: 204px;
 }
 
 .imagem2{
+	flex-direction: column;
+	display: block;
 	width: 201px;
 	height: 204px;
 }
 
 .imagem3{
+	flex-direction: column;
+	display: block;
 	width: 201px;
 	height: 204px;
 }
 
 .imagem4{
-	width: 800px;
+	display: flex;
+	flex-direction: row;
+	width: 900px;
 	height: 600px;
+}
+.caixa-pé{
+	background-color: red;
+	height: 200px;
+    width: 100%;
+}
+.img-love1{
+	width: 90px;
+
+
 }
