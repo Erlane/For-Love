@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+}
+
+header {
+   background-color: #F0F8FF;
+}
+
+nav {
+	width: 80vw;
+	display: flex;
+	justify-content: center;
+}
+
+.menu {
+    width: 100%;
+    height: 83px;
+	display: flex;
+    flex-direction: row;
+}
+
+a {
+	height: 100px;
+	text-decoration: none;
+	color: #BC503B;
+}
+
+
+.menu-image {
+	width: 90px;
+}
+
+.menu-item {
+	padding: 30px;
+	font-size: 25px;
+	display: inline;
+}
+
+.sub-topico {
+	width: 100%;
+	height: 620px;
+	color: #808080;
+	font-size: 1.6rem;
+	background-image: url("../img/fumaca.png");
+	background-repeat: no-repeat;
+	background-size: 70vw 100vh;
+	background-position: right;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+} 
+
+.sub-topico-image {
+	width: 60vw;
+	height: 75vh;
+}
+
+.container-forLove {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+.container-forLove-text {
+	/*background-color: red;*/
+    width: 33%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+p {
+	font-size: 1.3rem;
+}
+
+.image-gallery {
+	display: flex;
+	flex-direction: row;
+}
+
+.box-image {
+	
+}
+
+.box-image-itens {
+	margin: 7px;
+	width: 201px;
+	height: 204px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.sustentavel-img {
+	width: 250px;
+	color: #FF0040;
+	font-weight: bold;
+	display: flex;
+	text-align: center;
+
+}
+
+.imagem4 {
+	margin: 10px;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+}
+
+.contra-text {
+	display: flex;
+}
+
+.image1 {
+	width: 500px;
+	height: 460px;
+}
+
+.listas {
+	width: 165px;
+	font-size: 1rem;
+}
+
+.lista {
+	font-weight: bold;
+	list-style: none;
+}
+
+.footer {
+	width: 100%;
+	height: 250px;
+	display: flex;
+	background-color: red;   
+}
+
+.footer-info {
+	width: 30%
+}
+
+.footer-image {
+	width: 90px;
+	height: 
+
+}
+
+h2 {
+	color: #FFFFFF;
+	width: 83%;
+}
+
+.info-contato {
+	width: 30%;
+}
+
+.footers {
+	color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-contato {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-insta {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-face {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image1 {
+	margin: 5px;
+	width: 4vw;
+	height: 5vh;
+}
+
+.footer-image2 {
+	width: 40px;
+	height: 40px;
+}
+
+.footer-image3 {
+	width: 60px;
+	height: 53px;
+}
+
+.figura {
+	width: 45%;
+	height:10%;
+}
+
+.figura1 {
+	width: 200px;
+	height: 225px;
+}
+
+.finish {
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.vnw {
+	width: 50px;
+	height: 40px;
+}
