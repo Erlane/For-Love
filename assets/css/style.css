@@ -6,6 +6,10 @@ header {
    background-color: #F0F8FF;
 }
 
+body {
+	padding: 80px;
+}
+
 nav {
 	width: 80vw;
 	display: flex;
@@ -18,6 +22,12 @@ nav {
 	display: flex;
     flex-direction: row;
 }
+
+	@media (min-width: 786px) {
+		.menu {
+			
+		}
+	}
 
 a {
 	height: 100px;
@@ -37,7 +47,7 @@ a {
 }
 
 .sub-topico {
-	width: 100%;
+	width: 110%;
 	height: 620px;
 	color: #808080;
 	font-size: 1.6rem;
@@ -49,6 +59,12 @@ a {
 	flex-direction: row;
 	align-items: center;
 } 
+
+.title {
+	width: 35%;
+	height: 10vh;
+	font-weight: bold;
+}
 
 .sub-topico-image {
 	width: 60vw;
@@ -64,8 +80,8 @@ a {
 
 .container-forLove-text {
 	/*background-color: red;*/
-    width: 33%;
-    height: 290px;
+    width: 30%;
+    height: 340px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -94,45 +110,55 @@ p {
 	justify-content: space-around;
 }
 
-.sustentavel-img {
-	width: 250px;
+.paragrafy-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.reciclagem {
+	/*width: 250px;*/
+	height: 0vh;
 	color: #FF0040;
 	font-weight: bold;
 	display: flex;
 	text-align: center;
-
 }
 
 .imagem4 {
-	margin: 10px;
-	width: 100%;
-	height: 600px;
+	margin: 55px;
+	width: 75%;
+	height: 55vh;
 	display: flex;
 	flex-direction: row;
 }
 
 .contra-text {
+	background-color: #F0F8FF;
 	display: flex;
 }
 
 .image1 {
-	width: 500px;
-	height: 460px;
+	width: 50vw;
+	height: 50vh;
 }
 
 .listas {
-	width: 165px;
+	width: 40%;
 	font-size: 1rem;
 }
 
 .lista {
+	padding: 0;
 	font-weight: bold;
 	list-style: none;
 }
 
 .footer {
+	padding: 2rem;
 	width: 100%;
-	height: 250px;
+	height: 180px;
 	display: flex;
 	background-color: red;   
 }
@@ -143,13 +169,11 @@ p {
 
 .footer-image {
 	width: 90px;
-	height: 
-
 }
 
 h2 {
 	color: #FFFFFF;
-	width: 83%;
+	width: 75%;
 }
 
 .info-contato {
@@ -186,26 +210,29 @@ h2 {
 	margin: 5px;
 	width: 4vw;
 	height: 5vh;
+	font-weight: bold;
 }
 
 .footer-image2 {
 	width: 40px;
 	height: 40px;
+	font-weight: bold;
 }
 
 .footer-image3 {
 	width: 60px;
 	height: 53px;
+	font-weight: bold;
 }
 
 .figura {
 	width: 45%;
-	height:10%;
+	height: 10%;
 }
 
 .figura1 {
 	width: 200px;
-	height: 225px;
+	height: 205px;
 }
 
 .finish {
