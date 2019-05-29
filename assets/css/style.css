@@ -48,8 +48,7 @@ nav {
 
 @media (max-width: 768px){
 	.box-img {
-		width: 22vw;
-		
+		width: 22%;
 
 	}
 }
@@ -107,23 +106,23 @@ a {
 }
 
 .menu-item {
-	font-size: 1.62rem;
+	font-size: 1.3rem;
 	display: inline;
 	font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px){
-		.menu-item {
+	.menu-item {
 		font-size: 0.75rem;
 
-		}
 	}
+}
 
-.home {
+/*.home {
 	height:85vh;
 	background-image: url("../img/fumaca.png");
 	background-repeat: no-repeat;
-	background-size: 60vw 90vh;
+	background-size: 60% 90%;
 	background-position: right;
 }
 
@@ -133,19 +132,25 @@ a {
 		height: 80vh;
 		display: flex;
 		align-items: flex-end;
-		background-size: 100vw 78vh;
+		background-size: 100% 65%;
 		
 	}
 }
-
+*/
 .box-home {
+	/*width: 90%;*/
 	display: flex;
 	/*justify-content: center;*/
 	align-items: center;
+	background-image: url("../img/fumaca.png");
+	background-repeat: no-repeat;
+	background-size: 55% 100%;
+	background-position: right;
 }
 
 @media (max-width: 768px){
 	.box-home {
+		background-size: 100% 100%;
 		flex-direction: column-reverse;
 			
 	}
@@ -153,28 +158,31 @@ a {
 
 .home-title {
 	color: #939393;
-	/*margin: 60px;*/
-	font-size: 2.5rem;
+	padding-left: 80px;
+	width: 50%;
+	font-size: 3rem;
 	font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px){
 	.home-title {
-		width: 85%;
+		padding-left: 0;
+		width: 92%;
+		height: 8vh;
 		font-size: 2rem;
+		display: flex;
+    	justify-content: center;
 	}
 }
 
 .home-image {
 	width: 50%;
-	height: 80vh;
+    height: 66%;
 }
 
 @media (max-width: 768px){
 	.home-image {
-		width: 90%;
-		height: 50vh;
-
+    	width: 68%;
 	}
 }
 
@@ -182,20 +190,19 @@ a {
 .container-forLove {
 	width: 70%;
 	display: flex;
-	/*background-color: #EFF6F8;*/
 	justify-content: space-around;
 	align-items: center;
 	flex-direction: row-reverse;
 }
 
 @media (max-width: 768px){
-		.container-forLove {
+	.container-forLove {
 		width: 100%;
-		height: 140vh;
+		/*height: 140vh;*/
 		flex-direction: column;
 			
-		}
 	}
+}
 
 .container-forLove-text {
     width: 30%;
@@ -222,12 +229,12 @@ p {
 }
 
 @media (max-width: 768px){
-		.container-forLove-img {
+	.container-forLove-img {
 		height: 65vh;
 		width: 85%;
 
-		}
 	}
+}
 
 .image-gallery {
 	padding-left: 5vw;
@@ -239,7 +246,7 @@ p {
 
 @media (max-width: 768px){
 	.image-gallery {
-		margin: 5vw 0;
+		padding-left: 0;
 		width: 100%;
 		flex-direction: column-reverse;
 			
@@ -252,7 +259,7 @@ p {
 
 @media (max-width: 768px){
 	.box-image {
-		margin: 0;
+		/*margin: 0;*/
 		width: 100%;
 		height: 25vh;
 		display: flex;
@@ -275,7 +282,7 @@ p {
 	.box-image-itens {
 		margin: 0;
 		height: 20vh;
-		width: 32%;
+		width: 33%;
 		display: flex;
 		flex-direction: row;
 			
@@ -298,7 +305,7 @@ p {
 
 .reciclagem {
 	width: 74%;
-	color: #FF0040;
+	color: #D63727;
 	font-size: 1.3rem;
 	display: flex;
 	font-family: 'Montserrat', sans-serif;
@@ -320,7 +327,7 @@ p {
 
 @media (max-width: 768px){
 	.imagem4 {
-		height: 30vh;
+		height: 35vh;
 		width: 100%;
 		display: flex;
 		align-items: center;
@@ -337,26 +344,26 @@ p {
 
 @media (max-width: 768px){
 	.contra-text {
-		align-items: center;
-		justify-content: center;
+		height: 80vh;
+		/*align-items: center;*/
+		/*justify-content: center;*/
 		flex-direction: column-reverse;
 			
 	}
 }
 
 .image1 {
-	width: 40vw;
+	width: 45vw;
 	height: 50vh;
 }
 
 @media (max-width: 768px){
 	.image1 {
 		width: 100%;
-		height: 40vh;
+		height: 50vh;
 		display: flex;
-		align-items: center;
-
-			
+		/*align-items: center;*/
+	
 	}
 }
 
@@ -371,10 +378,9 @@ p {
 @media (max-width: 768px){
 	.box-art {
 		width: 100%;
-		height: 40vh;
+		/*height: 40vh;*/
 		align-items: center;
-		justify-content: center;
-
+		/*justify-content: center;*/
 	}
 
 }
@@ -385,7 +391,6 @@ p {
 	line-height: 1.25rem;
 	font-size: 1rem;
 }
-
 
 @media (max-width: 768px){
 	.listas {
@@ -424,7 +429,7 @@ p {
 	.footer {
 		width: 100%;
 		height: 100vh;
-		flex-direction: column;
+		/*flex-direction: column;*/
 			
 	}
 }
@@ -441,7 +446,8 @@ p {
 @media (max-width: 768px) {
 	.roda-pé {
 		width: 100%;
-		height: 70vh;
+		height: 85vh;
+		flex-direction: column;
 			
 	}
 }
@@ -454,7 +460,7 @@ p {
 @media (max-width: 768px) {
 	.footer-info {
 		margin: 0;
-		height: 80%;
+		height: 35vh;
 		width: 100%;
 		display: flex;
 		align-items: center;
@@ -465,12 +471,12 @@ p {
 }
 
 .footer-image {
-	width: 30%;
+	width: 25%;
 }
 
 @media (max-width: 768px) {
 	.footer-image {
-		width: 40%;
+		width: 35%;
 		height: 20vh;
 		
 	}
@@ -478,7 +484,7 @@ p {
 
 h2 {
 	color: #FFFFFF;
-	width: 75%;
+	width: 50%;
 	font-size: 1rem;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -508,7 +514,7 @@ h2 {
 	    height: 35%;
 	    align-items: center;
 	    align-self: flex-end;
-	    font-size: 1.3rem;
+	    font-size: 1.2rem;
 		
 	}
 }
@@ -525,8 +531,11 @@ h2 {
 
 @media (max-width: 768px) {
 	.footers {
-		width: 70%;
-		align-items: center;
+		padding: 0;
+		/*width: 100%;*/
+		/*height: 25vh;*/
+		justify-content: center;
+		/*align-items: center;*/
 		
 	}
 }
@@ -536,23 +545,24 @@ h2 {
     align-items: center;
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
 	.social {
 		height: 85vh;
 		
 	}
-}
+}*/
 
 .footer-image1 {
-	margin-right: 0.4rem;
-	width: 31%;
-	height: 5vh;
+	width: 12%;
+	height: 4vh;
 	font-weight: bold;
 }
 
 @media (max-width: 768px) {
 	.footer-image1 {
-		height: 85vh;
+		width: 17%;
+		height: 10vh;
+		margin-right: 9px;
 		
 	}
 }
@@ -563,7 +573,7 @@ h2 {
 }
 
 .figure-footerTime {
-	width: 100%;
+	width: 90%;
 	height: 40vh;
 }
 
@@ -584,7 +594,7 @@ h2 {
 
 @media (max-width: 768px){
 	.finish {
-		height: 8%;
+		height: 5%;
 		width: 100%;
 
 	}
@@ -600,9 +610,9 @@ h2 {
 }
 
 @media (max-width: 768px){
-	.wnw {
-		height: 50%;
-		width: 13%;
+	.vnw {
+		height: 4vh;
+		width: 10%;
 		margin-left: 10px;
 		
 	}
