@@ -282,6 +282,7 @@ a {
 
 @media (max-width: 768px){
 	.imagem4 {
+		//height: 30%;
 		width: 100%;
 		display: flex;
 		align-items: center;
@@ -299,7 +300,10 @@ a {
 
 @media (max-width: 768px){
 	.contra-text {
+/*<<<<<<< HEAD
 		min-height: 75vh;
+=======*/
+		height: 80vh;
 		flex-direction: column-reverse;
 			
 	}
@@ -419,8 +423,7 @@ a {
 
 @media (max-width: 768px) {
 	.footer-image {
-		width: 40%;
-
+		width: 20%;
 	}
 }
 
