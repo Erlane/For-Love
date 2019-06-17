@@ -347,7 +347,6 @@ a {
 		height: 18vh;
 		width: 60%;
 		color: #3E4D4F;
-
 	}
 }
 
@@ -362,8 +361,7 @@ a {
 	.lista {
 		width: 60%;
 		display: flex;
-		flex-direction: column;
-			
+		flex-direction: column;	
 	}
 }
 
