@@ -13,11 +13,6 @@ nav {
 	justify-content: center;
 }
 
-.header {
-	width: 100%;
-	height: auto;
-}
-
 .wrapper-menu {
 	width: 100%;
 	height: 15vh;
@@ -48,7 +43,7 @@ nav {
 	width: 5vw;
 }
 
-@media (max-width: 768px){
+@media (max-width: 640px){
 	.menu-image {
 		width: 13vw;
 	}
@@ -56,9 +51,6 @@ nav {
 
 .menu {
     width: 60%;
-    height: 15vh;
-	display: flex;
-    align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -191,14 +183,17 @@ a {
 
 .image-gallery {
 	padding-left: 5vw;
+	min-height: 100vh;
 	background-color: #FFFFFF;
 	display: flex;
+	align-items: center;
 	flex-direction: row;
 }
 
 @media (max-width: 768px){
 	.image-gallery {
 		padding-left: 0;
+		min-height: 70vh;
 		width: 100%;
 		flex-direction: column-reverse;		
 	}
@@ -207,7 +202,6 @@ a {
 @media (max-width: 768px){
 	.box-image {
 		width: 100%;
-		height: 25vh;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;	
@@ -217,7 +211,6 @@ a {
 .box-image-itens {
 	margin: 12px;
 	width: 12.56rem;
-	height: 12.75rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -226,10 +219,14 @@ a {
 @media (max-width: 768px){
 	.box-image-itens {
 		margin: 0;
-		height: 8rem;
-		width: 33%;
 		display: flex;
 		flex-direction: row;	
+	}
+}
+
+@media (max-width: 640px){
+	.box-image-itens {
+		width: 33%;	
 	}
 }
 
@@ -251,13 +248,14 @@ a {
 	width: 74%;
 	color: #D63727;
 	font-size: 1.3rem;
-	display: flex;
 	font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px){
 	.reciclagem {
+		margin-top: 2rem;
 		width: 77%;
+		text-align: left;
 	}
 }
 
@@ -267,7 +265,6 @@ a {
 
 @media (max-width: 768px){
 	.imagem4 {
-		/*height: 30%;*/
 		width: 100%;
 		display: flex;
 		align-items: center;	
@@ -283,13 +280,13 @@ a {
 
 @media (max-width: 768px){
 	#contra-text {
-		height: 80vh;
+		height: 90vh;
 		flex-direction: column-reverse;	
 	}
 }
 
 .image1 {
-	width: 45vw;
+	width: 39vw;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -297,8 +294,13 @@ a {
 
 @media (max-width: 768px){
 	.image1 {
+		width: 60%;
+	}
+}
+
+@media (max-width: 640px){
+	.image1 {
 		width: 100%;
-		display: flex;
 	}
 }
 
@@ -392,16 +394,6 @@ a {
 	}
 }
 
-.footer-image {
-	width: 35%;
-}
-
-@media (max-width: 768px) {
-	.footer-image {
-		width: 40%;
-	}
-}
-
 h2 {
 	color: #FFFFFF;
 	width: 70%;
@@ -463,6 +455,7 @@ h2 {
 	width: 12%;
 	height: 4vh;
 	font-weight: bold;
+	    margin-right: 0.85rem
 }
 
 @media (max-width: 768px) {
